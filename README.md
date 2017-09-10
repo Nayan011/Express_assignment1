@@ -1,3 +1,4 @@
 # Express_assignment1
-to run use // node server.js//
-use port: 8080
+# npm install
+# node server.js
+#use port: 8080
