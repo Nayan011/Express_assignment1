@@ -6,9 +6,9 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var app = express();
 var config = require('./config');
+ app.use(cookieParser());
  app.use(bodyParser.urlencoded({ extended: true }));
  app.use(bodyParser.json());
- app.use(cookieParser())
  app.use(express.static(__dirname + '/views'));
  app.set('strict routing',true);
  app.set('case sensitive routing',true);
