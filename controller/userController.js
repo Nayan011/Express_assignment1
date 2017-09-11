@@ -1,5 +1,5 @@
 
-var config = require('../config');
+//var config = require('../config');
 const fetch = require('node-fetch');
 const RX=require('@reactivex/rxjs');
 module.exports={
